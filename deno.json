@@ -14,7 +14,7 @@
   "license": "MIT",
   "homepage": "https://github.com/PatMan10/kickstart.css#readme",
   "tasks": {
-    "compile": "deno run -A npm:sass ./src/lib/kickstart.scss ./dist/kickstart.css && deno run -A npm:sass --style=compressed ./src/lib/kickstart.scss ./dist/kickstart.min.css",
-    "watch": "deno run -A npm:sass --watch ./src/lib:./dist"
+    "compile": "deno run -A npm:sass ./src/kickstart.scss ./kickstart.css && deno run -A npm:sass --style=compressed ./src/kickstart.scss ./kickstart.min.css",
+    "watch": "deno run -A npm:sass --watch ./src:."
   }
 }
