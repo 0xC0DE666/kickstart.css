@@ -1,0 +1,20 @@
+{
+  "name": "Kickstart.css",
+  "version": "3.1.0",
+  "description": "A css file with some utility classes for flex-box, heights, widths, margin and padding",
+  "repository": "https://github.com/PatMan10/kickstart.css",
+  "keywords": [
+    "utility",
+    "css",
+    "sass",
+    "kickstart",
+    "PatMan10"
+  ],
+  "author": "PatMan10",
+  "license": "MIT",
+  "homepage": "https://github.com/PatMan10/kickstart.css#readme",
+  "tasks": {
+    "compile": "deno run -A npm:sass ./src/lib/kickstart.scss ./dist/kickstart.css && deno run -A npm:sass --style=compressed ./src/lib/kickstart.scss ./dist/kickstart.min.css",
+    "watch": "deno run -A npm:sass --watch ./src/lib:./dist"
+  }
+}
