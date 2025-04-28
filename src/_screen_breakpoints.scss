@@ -38,7 +38,7 @@ $body_bg_colors: (
 
 @each $k, $v in $screen_breakpoints {
 	@media (min-width: $v) {
-		body {
+		body.dev {
 			background-color: map.get($body_bg_colors, $k);
 		}
 	}

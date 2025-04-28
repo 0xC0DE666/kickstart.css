@@ -1,35 +1,35 @@
 @media (min-width: 0px) {
-  body {
+  body.dev {
     background-color: darkred;
   }
 }
 @media (min-width: 368px) {
-  body {
+  body.dev {
     background-color: red;
   }
 }
 @media (min-width: 576px) {
-  body {
+  body.dev {
     background-color: orange;
   }
 }
 @media (min-width: 768px) {
-  body {
+  body.dev {
     background-color: yellow;
   }
 }
 @media (min-width: 992px) {
-  body {
+  body.dev {
     background-color: greenyellow;
   }
 }
 @media (min-width: 1200px) {
-  body {
+  body.dev {
     background-color: limegreen;
   }
 }
 @media (min-width: 1400px) {
-  body {
+  body.dev {
     background-color: green;
   }
 }
