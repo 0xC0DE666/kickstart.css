@@ -2,18 +2,61 @@
 // TEXT
 // ####################
 
+// ALIGNMENT
+
 .txt-left {
-  text-align: left;
+	text-align: left;
 }
 
 .txt-right {
-  text-align: right;
+	text-align: right;
 }
 
 .txt-center {
-  text-align: center;
+	text-align: center;
 }
 
 .txt-justify {
-  text-align: justify;
+	text-align: justify;
+}
+
+// FONT WEIGHT
+
+.font-bold {
+	font-weight: bold;
+}
+.font-100 {
+	font-weight: 100;
+}
+.font-200 {
+	font-weight: 200;
+}
+.font-300 {
+	font-weight: 300;
+}
+.font-400 {
+	font-weight: 400;
+}
+.font-500 {
+	font-weight: 500;
+}
+.font-600 {
+	font-weight: 600;
+}
+.font-700 {
+	font-weight: 700;
+}
+.font-800 {
+	font-weight: 800;
+}
+.font-900 {
+	font-weight: 900;
+}
+
+// MISC
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }

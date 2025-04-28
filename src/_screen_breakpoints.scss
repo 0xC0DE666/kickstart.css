@@ -7,39 +7,39 @@
 $sizes: ("xxs", "xs", "s", "m", "l", "xl", "xxl") !default;
 
 $screen_breakpoints: (
-  "xxs": 0px,
-  "xs": 368px,
-  "s": 576px,
-  "m": 768px,
-  "l": 992px,
-  "xl": 1200px,
-  "xxl": 1400px,
+	"xxs": 0px,
+	"xs": 368px,
+	"s": 576px,
+	"m": 768px,
+	"l": 992px,
+	"xl": 1200px,
+	"xxl": 1400px,
 ) !default;
 
 $scale_multipliers: (
-  "xxs": 0.4,
-  "xs": 0.6,
-  "s": 0.8,
-  "m": 1,
-  "l": 1.4,
-  "xl": 1.8,
-  "xxl": 2.2,
+	"xxs": 0.4,
+	"xs": 0.6,
+	"s": 0.8,
+	"m": 1,
+	"l": 1.4,
+	"xl": 1.8,
+	"xxl": 2.2,
 ) !default;
 
 $body_bg_colors: (
-  "xxs": darkred,
-  "xs": red,
-  "s": orange,
-  "m": yellow,
-  "l": greenyellow,
-  "xl": limegreen,
-  "xxl": green,
+	"xxs": darkred,
+	"xs": red,
+	"s": orange,
+	"m": yellow,
+	"l": greenyellow,
+	"xl": limegreen,
+	"xxl": green,
 ) !default;
 
 @each $k, $v in $screen_breakpoints {
-  @media (min-width: $v) {
-    body {
-      background-color: map.get($body_bg_colors, $k);
-    }
-  }
+	@media (min-width: $v) {
+		body {
+			background-color: map.get($body_bg_colors, $k);
+		}
+	}
 }

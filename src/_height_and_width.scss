@@ -5,31 +5,31 @@
 // HEIGHT %
 
 @for $i from 1 through 100 {
-  .h-#{$i} {
-    height: #{$i * 1%} !important;
-  }
+	.h-#{$i} {
+		height: #{$i * 1%} !important;
+	}
 }
 
 // HEIGHT VH
 
 @for $i from 1 through 100 {
-  .h-#{$i}v {
-    height: #{$i}vh !important;
-  }
+	.h-#{$i}vp {
+		height: #{$i}vh !important;
+	}
 }
 
 // WIDTH %
 
 @for $i from 1 through 100 {
-  .w-#{$i} {
-    width: #{$i * 1%} !important;
-  }
+	.w-#{$i} {
+		width: #{$i * 1%} !important;
+	}
 }
 
 // WIDTH VW
 
 @for $i from 1 through 100 {
-  .w-#{$i}v {
-    width: #{$i}vw !important;
-  }
+	.w-#{$i}vp {
+		width: #{$i}vw !important;
+	}
 }

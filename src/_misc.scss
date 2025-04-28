@@ -1,0 +1,53 @@
+// ####################
+// DISPLAY
+// ####################
+
+.block {
+	display: block;
+}
+.inline {
+	display: inline;
+}
+.inline-block {
+	display: inline-block;
+}
+.none {
+	display: none;
+}
+.contents {
+	display: contents;
+}
+
+// ####################
+// SCROLL BARS
+// ####################
+
+.hide-x-scrollbar {
+	overflow-x: scroll; /* Enables horizontal scrolling */
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE/Edge */
+	
+	/* Optional: restrict Y scrolling */
+	overflow-y: hidden;
+}
+
+.hide-x-scrollbar::-webkit-scrollbar {
+	height: 0; /* Chrome/Safari/Opera */
+}
+
+.hide-y-scrollbar {
+	overflow-y: scroll; /* Enables scrolling */
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE/Edge */
+	
+	/* Optional: restrict X scrolling */
+	overflow-x: hidden;
+}
+
+.hide-y-scrollbar::-webkit-scrollbar {
+	width: 0; /* Chrome/Safari/Opera */
+}
+
+.hover-pointer:hover {
+	cursor: pointer;
+}

@@ -122,47 +122,47 @@
   flex-direction: column-reverse;
 }
 
-.justify-start {
+.content-start {
   justify-content: flex-start;
 }
 
-.justify-end {
+.content-end {
   justify-content: flex-end;
 }
 
-.justify-center {
+.content-center {
   justify-content: center;
 }
 
-.justify-between {
+.content-space-between {
   justify-content: space-between;
 }
 
-.justify-around {
+.content-space-around {
   justify-content: space-around;
 }
 
-.justify-evenly {
+.content-space-evenly {
   justify-content: space-evenly;
 }
 
-.align-start {
+.items-start {
   align-items: flex-start;
 }
 
-.align-end {
+.items-end {
   align-items: flex-end;
 }
 
-.align-center {
+.items-center {
   align-items: center;
 }
 
-.align-baseline {
+.items-baseline {
   align-items: baseline;
 }
 
-.align-stretch {
+.items-stretch {
   align-items: stretch;
 }
 
@@ -202,83 +202,91 @@
   flex-wrap: nowrap;
 }
 
-.flex-g1 {
+.grow-0 {
+  flex-grow: 0;
+}
+
+.grow-1 {
   flex-grow: 1;
 }
 
-.flex-g2 {
+.grow-2 {
   flex-grow: 2;
 }
 
-.flex-g3 {
+.grow-3 {
   flex-grow: 3;
 }
 
-.flex-g4 {
+.grow-4 {
   flex-grow: 4;
 }
 
-.flex-g5 {
+.grow-5 {
   flex-grow: 5;
 }
 
-.flex-g6 {
+.grow-6 {
   flex-grow: 6;
 }
 
-.flex-g7 {
+.grow-7 {
   flex-grow: 7;
 }
 
-.flex-g8 {
+.grow-8 {
   flex-grow: 8;
 }
 
-.flex-g9 {
+.grow-9 {
   flex-grow: 9;
 }
 
-.flex-g10 {
+.grow-10 {
   flex-grow: 10;
 }
 
-.flex-s1 {
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.shrink-1 {
   flex-shrink: 1;
 }
 
-.flex-s2 {
+.shrink-2 {
   flex-shrink: 2;
 }
 
-.flex-s3 {
+.shrink-3 {
   flex-shrink: 3;
 }
 
-.flex-s4 {
+.shrink-4 {
   flex-shrink: 4;
 }
 
-.flex-s5 {
+.shrink-5 {
   flex-shrink: 5;
 }
 
-.flex-s6 {
+.shrink-6 {
   flex-shrink: 6;
 }
 
-.flex-s7 {
+.shrink-7 {
   flex-shrink: 7;
 }
 
-.flex-s8 {
+.shrink-8 {
   flex-shrink: 8;
 }
 
-.flex-s9 {
+.shrink-9 {
   flex-shrink: 9;
 }
 
-.flex-s10 {
+.shrink-10 {
   flex-shrink: 10;
 }
 
@@ -682,403 +690,403 @@
   height: 100% !important;
 }
 
-.h-1v {
+.h-1vp {
   height: 1vh !important;
 }
 
-.h-2v {
+.h-2vp {
   height: 2vh !important;
 }
 
-.h-3v {
+.h-3vp {
   height: 3vh !important;
 }
 
-.h-4v {
+.h-4vp {
   height: 4vh !important;
 }
 
-.h-5v {
+.h-5vp {
   height: 5vh !important;
 }
 
-.h-6v {
+.h-6vp {
   height: 6vh !important;
 }
 
-.h-7v {
+.h-7vp {
   height: 7vh !important;
 }
 
-.h-8v {
+.h-8vp {
   height: 8vh !important;
 }
 
-.h-9v {
+.h-9vp {
   height: 9vh !important;
 }
 
-.h-10v {
+.h-10vp {
   height: 10vh !important;
 }
 
-.h-11v {
+.h-11vp {
   height: 11vh !important;
 }
 
-.h-12v {
+.h-12vp {
   height: 12vh !important;
 }
 
-.h-13v {
+.h-13vp {
   height: 13vh !important;
 }
 
-.h-14v {
+.h-14vp {
   height: 14vh !important;
 }
 
-.h-15v {
+.h-15vp {
   height: 15vh !important;
 }
 
-.h-16v {
+.h-16vp {
   height: 16vh !important;
 }
 
-.h-17v {
+.h-17vp {
   height: 17vh !important;
 }
 
-.h-18v {
+.h-18vp {
   height: 18vh !important;
 }
 
-.h-19v {
+.h-19vp {
   height: 19vh !important;
 }
 
-.h-20v {
+.h-20vp {
   height: 20vh !important;
 }
 
-.h-21v {
+.h-21vp {
   height: 21vh !important;
 }
 
-.h-22v {
+.h-22vp {
   height: 22vh !important;
 }
 
-.h-23v {
+.h-23vp {
   height: 23vh !important;
 }
 
-.h-24v {
+.h-24vp {
   height: 24vh !important;
 }
 
-.h-25v {
+.h-25vp {
   height: 25vh !important;
 }
 
-.h-26v {
+.h-26vp {
   height: 26vh !important;
 }
 
-.h-27v {
+.h-27vp {
   height: 27vh !important;
 }
 
-.h-28v {
+.h-28vp {
   height: 28vh !important;
 }
 
-.h-29v {
+.h-29vp {
   height: 29vh !important;
 }
 
-.h-30v {
+.h-30vp {
   height: 30vh !important;
 }
 
-.h-31v {
+.h-31vp {
   height: 31vh !important;
 }
 
-.h-32v {
+.h-32vp {
   height: 32vh !important;
 }
 
-.h-33v {
+.h-33vp {
   height: 33vh !important;
 }
 
-.h-34v {
+.h-34vp {
   height: 34vh !important;
 }
 
-.h-35v {
+.h-35vp {
   height: 35vh !important;
 }
 
-.h-36v {
+.h-36vp {
   height: 36vh !important;
 }
 
-.h-37v {
+.h-37vp {
   height: 37vh !important;
 }
 
-.h-38v {
+.h-38vp {
   height: 38vh !important;
 }
 
-.h-39v {
+.h-39vp {
   height: 39vh !important;
 }
 
-.h-40v {
+.h-40vp {
   height: 40vh !important;
 }
 
-.h-41v {
+.h-41vp {
   height: 41vh !important;
 }
 
-.h-42v {
+.h-42vp {
   height: 42vh !important;
 }
 
-.h-43v {
+.h-43vp {
   height: 43vh !important;
 }
 
-.h-44v {
+.h-44vp {
   height: 44vh !important;
 }
 
-.h-45v {
+.h-45vp {
   height: 45vh !important;
 }
 
-.h-46v {
+.h-46vp {
   height: 46vh !important;
 }
 
-.h-47v {
+.h-47vp {
   height: 47vh !important;
 }
 
-.h-48v {
+.h-48vp {
   height: 48vh !important;
 }
 
-.h-49v {
+.h-49vp {
   height: 49vh !important;
 }
 
-.h-50v {
+.h-50vp {
   height: 50vh !important;
 }
 
-.h-51v {
+.h-51vp {
   height: 51vh !important;
 }
 
-.h-52v {
+.h-52vp {
   height: 52vh !important;
 }
 
-.h-53v {
+.h-53vp {
   height: 53vh !important;
 }
 
-.h-54v {
+.h-54vp {
   height: 54vh !important;
 }
 
-.h-55v {
+.h-55vp {
   height: 55vh !important;
 }
 
-.h-56v {
+.h-56vp {
   height: 56vh !important;
 }
 
-.h-57v {
+.h-57vp {
   height: 57vh !important;
 }
 
-.h-58v {
+.h-58vp {
   height: 58vh !important;
 }
 
-.h-59v {
+.h-59vp {
   height: 59vh !important;
 }
 
-.h-60v {
+.h-60vp {
   height: 60vh !important;
 }
 
-.h-61v {
+.h-61vp {
   height: 61vh !important;
 }
 
-.h-62v {
+.h-62vp {
   height: 62vh !important;
 }
 
-.h-63v {
+.h-63vp {
   height: 63vh !important;
 }
 
-.h-64v {
+.h-64vp {
   height: 64vh !important;
 }
 
-.h-65v {
+.h-65vp {
   height: 65vh !important;
 }
 
-.h-66v {
+.h-66vp {
   height: 66vh !important;
 }
 
-.h-67v {
+.h-67vp {
   height: 67vh !important;
 }
 
-.h-68v {
+.h-68vp {
   height: 68vh !important;
 }
 
-.h-69v {
+.h-69vp {
   height: 69vh !important;
 }
 
-.h-70v {
+.h-70vp {
   height: 70vh !important;
 }
 
-.h-71v {
+.h-71vp {
   height: 71vh !important;
 }
 
-.h-72v {
+.h-72vp {
   height: 72vh !important;
 }
 
-.h-73v {
+.h-73vp {
   height: 73vh !important;
 }
 
-.h-74v {
+.h-74vp {
   height: 74vh !important;
 }
 
-.h-75v {
+.h-75vp {
   height: 75vh !important;
 }
 
-.h-76v {
+.h-76vp {
   height: 76vh !important;
 }
 
-.h-77v {
+.h-77vp {
   height: 77vh !important;
 }
 
-.h-78v {
+.h-78vp {
   height: 78vh !important;
 }
 
-.h-79v {
+.h-79vp {
   height: 79vh !important;
 }
 
-.h-80v {
+.h-80vp {
   height: 80vh !important;
 }
 
-.h-81v {
+.h-81vp {
   height: 81vh !important;
 }
 
-.h-82v {
+.h-82vp {
   height: 82vh !important;
 }
 
-.h-83v {
+.h-83vp {
   height: 83vh !important;
 }
 
-.h-84v {
+.h-84vp {
   height: 84vh !important;
 }
 
-.h-85v {
+.h-85vp {
   height: 85vh !important;
 }
 
-.h-86v {
+.h-86vp {
   height: 86vh !important;
 }
 
-.h-87v {
+.h-87vp {
   height: 87vh !important;
 }
 
-.h-88v {
+.h-88vp {
   height: 88vh !important;
 }
 
-.h-89v {
+.h-89vp {
   height: 89vh !important;
 }
 
-.h-90v {
+.h-90vp {
   height: 90vh !important;
 }
 
-.h-91v {
+.h-91vp {
   height: 91vh !important;
 }
 
-.h-92v {
+.h-92vp {
   height: 92vh !important;
 }
 
-.h-93v {
+.h-93vp {
   height: 93vh !important;
 }
 
-.h-94v {
+.h-94vp {
   height: 94vh !important;
 }
 
-.h-95v {
+.h-95vp {
   height: 95vh !important;
 }
 
-.h-96v {
+.h-96vp {
   height: 96vh !important;
 }
 
-.h-97v {
+.h-97vp {
   height: 97vh !important;
 }
 
-.h-98v {
+.h-98vp {
   height: 98vh !important;
 }
 
-.h-99v {
+.h-99vp {
   height: 99vh !important;
 }
 
-.h-100v {
+.h-100vp {
   height: 100vh !important;
 }
 
@@ -1482,403 +1490,403 @@
   width: 100% !important;
 }
 
-.w-1v {
+.w-1vp {
   width: 1vw !important;
 }
 
-.w-2v {
+.w-2vp {
   width: 2vw !important;
 }
 
-.w-3v {
+.w-3vp {
   width: 3vw !important;
 }
 
-.w-4v {
+.w-4vp {
   width: 4vw !important;
 }
 
-.w-5v {
+.w-5vp {
   width: 5vw !important;
 }
 
-.w-6v {
+.w-6vp {
   width: 6vw !important;
 }
 
-.w-7v {
+.w-7vp {
   width: 7vw !important;
 }
 
-.w-8v {
+.w-8vp {
   width: 8vw !important;
 }
 
-.w-9v {
+.w-9vp {
   width: 9vw !important;
 }
 
-.w-10v {
+.w-10vp {
   width: 10vw !important;
 }
 
-.w-11v {
+.w-11vp {
   width: 11vw !important;
 }
 
-.w-12v {
+.w-12vp {
   width: 12vw !important;
 }
 
-.w-13v {
+.w-13vp {
   width: 13vw !important;
 }
 
-.w-14v {
+.w-14vp {
   width: 14vw !important;
 }
 
-.w-15v {
+.w-15vp {
   width: 15vw !important;
 }
 
-.w-16v {
+.w-16vp {
   width: 16vw !important;
 }
 
-.w-17v {
+.w-17vp {
   width: 17vw !important;
 }
 
-.w-18v {
+.w-18vp {
   width: 18vw !important;
 }
 
-.w-19v {
+.w-19vp {
   width: 19vw !important;
 }
 
-.w-20v {
+.w-20vp {
   width: 20vw !important;
 }
 
-.w-21v {
+.w-21vp {
   width: 21vw !important;
 }
 
-.w-22v {
+.w-22vp {
   width: 22vw !important;
 }
 
-.w-23v {
+.w-23vp {
   width: 23vw !important;
 }
 
-.w-24v {
+.w-24vp {
   width: 24vw !important;
 }
 
-.w-25v {
+.w-25vp {
   width: 25vw !important;
 }
 
-.w-26v {
+.w-26vp {
   width: 26vw !important;
 }
 
-.w-27v {
+.w-27vp {
   width: 27vw !important;
 }
 
-.w-28v {
+.w-28vp {
   width: 28vw !important;
 }
 
-.w-29v {
+.w-29vp {
   width: 29vw !important;
 }
 
-.w-30v {
+.w-30vp {
   width: 30vw !important;
 }
 
-.w-31v {
+.w-31vp {
   width: 31vw !important;
 }
 
-.w-32v {
+.w-32vp {
   width: 32vw !important;
 }
 
-.w-33v {
+.w-33vp {
   width: 33vw !important;
 }
 
-.w-34v {
+.w-34vp {
   width: 34vw !important;
 }
 
-.w-35v {
+.w-35vp {
   width: 35vw !important;
 }
 
-.w-36v {
+.w-36vp {
   width: 36vw !important;
 }
 
-.w-37v {
+.w-37vp {
   width: 37vw !important;
 }
 
-.w-38v {
+.w-38vp {
   width: 38vw !important;
 }
 
-.w-39v {
+.w-39vp {
   width: 39vw !important;
 }
 
-.w-40v {
+.w-40vp {
   width: 40vw !important;
 }
 
-.w-41v {
+.w-41vp {
   width: 41vw !important;
 }
 
-.w-42v {
+.w-42vp {
   width: 42vw !important;
 }
 
-.w-43v {
+.w-43vp {
   width: 43vw !important;
 }
 
-.w-44v {
+.w-44vp {
   width: 44vw !important;
 }
 
-.w-45v {
+.w-45vp {
   width: 45vw !important;
 }
 
-.w-46v {
+.w-46vp {
   width: 46vw !important;
 }
 
-.w-47v {
+.w-47vp {
   width: 47vw !important;
 }
 
-.w-48v {
+.w-48vp {
   width: 48vw !important;
 }
 
-.w-49v {
+.w-49vp {
   width: 49vw !important;
 }
 
-.w-50v {
+.w-50vp {
   width: 50vw !important;
 }
 
-.w-51v {
+.w-51vp {
   width: 51vw !important;
 }
 
-.w-52v {
+.w-52vp {
   width: 52vw !important;
 }
 
-.w-53v {
+.w-53vp {
   width: 53vw !important;
 }
 
-.w-54v {
+.w-54vp {
   width: 54vw !important;
 }
 
-.w-55v {
+.w-55vp {
   width: 55vw !important;
 }
 
-.w-56v {
+.w-56vp {
   width: 56vw !important;
 }
 
-.w-57v {
+.w-57vp {
   width: 57vw !important;
 }
 
-.w-58v {
+.w-58vp {
   width: 58vw !important;
 }
 
-.w-59v {
+.w-59vp {
   width: 59vw !important;
 }
 
-.w-60v {
+.w-60vp {
   width: 60vw !important;
 }
 
-.w-61v {
+.w-61vp {
   width: 61vw !important;
 }
 
-.w-62v {
+.w-62vp {
   width: 62vw !important;
 }
 
-.w-63v {
+.w-63vp {
   width: 63vw !important;
 }
 
-.w-64v {
+.w-64vp {
   width: 64vw !important;
 }
 
-.w-65v {
+.w-65vp {
   width: 65vw !important;
 }
 
-.w-66v {
+.w-66vp {
   width: 66vw !important;
 }
 
-.w-67v {
+.w-67vp {
   width: 67vw !important;
 }
 
-.w-68v {
+.w-68vp {
   width: 68vw !important;
 }
 
-.w-69v {
+.w-69vp {
   width: 69vw !important;
 }
 
-.w-70v {
+.w-70vp {
   width: 70vw !important;
 }
 
-.w-71v {
+.w-71vp {
   width: 71vw !important;
 }
 
-.w-72v {
+.w-72vp {
   width: 72vw !important;
 }
 
-.w-73v {
+.w-73vp {
   width: 73vw !important;
 }
 
-.w-74v {
+.w-74vp {
   width: 74vw !important;
 }
 
-.w-75v {
+.w-75vp {
   width: 75vw !important;
 }
 
-.w-76v {
+.w-76vp {
   width: 76vw !important;
 }
 
-.w-77v {
+.w-77vp {
   width: 77vw !important;
 }
 
-.w-78v {
+.w-78vp {
   width: 78vw !important;
 }
 
-.w-79v {
+.w-79vp {
   width: 79vw !important;
 }
 
-.w-80v {
+.w-80vp {
   width: 80vw !important;
 }
 
-.w-81v {
+.w-81vp {
   width: 81vw !important;
 }
 
-.w-82v {
+.w-82vp {
   width: 82vw !important;
 }
 
-.w-83v {
+.w-83vp {
   width: 83vw !important;
 }
 
-.w-84v {
+.w-84vp {
   width: 84vw !important;
 }
 
-.w-85v {
+.w-85vp {
   width: 85vw !important;
 }
 
-.w-86v {
+.w-86vp {
   width: 86vw !important;
 }
 
-.w-87v {
+.w-87vp {
   width: 87vw !important;
 }
 
-.w-88v {
+.w-88vp {
   width: 88vw !important;
 }
 
-.w-89v {
+.w-89vp {
   width: 89vw !important;
 }
 
-.w-90v {
+.w-90vp {
   width: 90vw !important;
 }
 
-.w-91v {
+.w-91vp {
   width: 91vw !important;
 }
 
-.w-92v {
+.w-92vp {
   width: 92vw !important;
 }
 
-.w-93v {
+.w-93vp {
   width: 93vw !important;
 }
 
-.w-94v {
+.w-94vp {
   width: 94vw !important;
 }
 
-.w-95v {
+.w-95vp {
   width: 95vw !important;
 }
 
-.w-96v {
+.w-96vp {
   width: 96vw !important;
 }
 
-.w-97v {
+.w-97vp {
   width: 97vw !important;
 }
 
-.w-98v {
+.w-98vp {
   width: 98vw !important;
 }
 
-.w-99v {
+.w-99vp {
   width: 99vw !important;
 }
 
-.w-100v {
+.w-100vp {
   width: 100vw !important;
 }
 
@@ -8180,6 +8188,100 @@
 
 .txt-justify {
   text-align: justify;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-100 {
+  font-weight: 100;
+}
+
+.font-200 {
+  font-weight: 200;
+}
+
+.font-300 {
+  font-weight: 300;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.font-800 {
+  font-weight: 800;
+}
+
+.font-900 {
+  font-weight: 900;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.none {
+  display: none;
+}
+
+.contents {
+  display: contents;
+}
+
+.hide-x-scrollbar {
+  overflow-x: scroll; /* Enables horizontal scrolling */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+  /* Optional: restrict Y scrolling */
+  overflow-y: hidden;
+}
+
+.hide-x-scrollbar::-webkit-scrollbar {
+  height: 0; /* Chrome/Safari/Opera */
+}
+
+.hide-y-scrollbar {
+  overflow-y: scroll; /* Enables scrolling */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+  /* Optional: restrict X scrolling */
+  overflow-x: hidden;
+}
+
+.hide-y-scrollbar::-webkit-scrollbar {
+  width: 0; /* Chrome/Safari/Opera */
+}
+
+.hover-pointer:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=kickstart.css.map */

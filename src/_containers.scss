@@ -6,15 +6,15 @@
 @use "screen_breakpoints" as *;
 
 @each $k, $v in $screen_breakpoints {
-  @media (min-width: $v) {
-    .container {
-      @if $k == "xxs" or $k == "xs" {
-        width: 90%;
-      } @else {
-        width: $v * 0.9;
-      }
-      padding: 0 0.5rem;
-      margin: 0 auto;
-    }
-  }
+	@media (min-width: $v) {
+		.container {
+			@if $k == "xxs" or $k == "xs" {
+				width: 90%;
+			} @else {
+				width: $v * 0.9;
+			}
+			padding: 0 0.5rem;
+			margin: 0 auto;
+		}
+	}
 }
