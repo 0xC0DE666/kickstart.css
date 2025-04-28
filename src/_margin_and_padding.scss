@@ -2,6 +2,16 @@
 // MARGIN AND PADDING
 // ####################
 
+@use "sass:string";
+
+@function str-replace($string, $search, $replace: "") {
+	$index: string.index($string, $search);
+	@if $index {
+		@return string.slice($string, 1, $index - 1) + $replace + str-replace(string.slice($string, $index + string.length($search)), $search, $replace);
+	}
+	@return $string;
+}
+
 $sides: ("", "x", "y", "t", "r", "b", "l") !default;
 
 @function getProps($prop, $side) {
@@ -39,14 +49,13 @@ $sides: ("", "x", "y", "t", "r", "b", "l") !default;
 	}
 
 	$v: 0;
-	@for $i from 0 through 20 {
-		@each $dec in ("", "_25", "_50", "_75") {
-			.m#{$side}-#{$i}#{$dec} {
-				@each $prop in getProps("margin", $side) {
-					#{$prop}: #{$v}rem !important;
-				}
+	@for $i from 0 through 200 {
+		$dec: $i * 0.1;
+		$classDec: str-replace("#{$dec}", ".", "_");
+		.m#{$side}-#{$classDec} {
+			@each $prop in getProps("margin", $side) {
+				#{$prop}: #{$dec}rem !important;
 			}
-			$v: $v + 0.25;
 		}
 	}
 }
@@ -61,14 +70,13 @@ $sides: ("", "x", "y", "t", "r", "b", "l") !default;
 	}
 
 	$v: 0;
-	@for $i from 0 through 20 {
-		@each $dec in ("", "_25", "_50", "_75") {
-			.p#{$side}-#{$i}#{$dec} {
-				@each $prop in getProps("padding", $side) {
-					#{$prop}: #{$v}rem !important;
-				}
+	@for $i from 0 through 200 {
+		$dec: $i * 0.1;
+		$classDec: str-replace("#{$dec}", ".", "_");
+		.p#{$side}-#{$classDec} {
+			@each $prop in getProps("padding", $side) {
+				#{$prop}: #{$dec}rem !important;
 			}
-			$v: $v + 0.25;
 		}
 	}
 }
