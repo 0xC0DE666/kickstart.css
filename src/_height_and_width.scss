@@ -6,7 +6,7 @@
 
 @for $i from 1 through 100 {
   .h-#{$i} {
-    height: #{$i} + "%" !important;
+    height: #{$i * 1%} !important;
   }
 }
 
@@ -22,7 +22,7 @@
 
 @for $i from 1 through 100 {
   .w-#{$i} {
-    width: #{$i} + "%" !important;
+    width: #{$i * 1%} !important;
   }
 }
 

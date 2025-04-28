@@ -2,30 +2,31 @@
 // MARGIN AND PADDING
 // ####################
 
-$sides: "", "x", "y", "t", "r", "b", "l";
+$sides: ("", "x", "y", "t", "r", "b", "l") !default;
 
 @function getProps($prop, $side) {
-  @if ($side == "") {
+  @if $side == "" {
     @return $prop;
   }
-  @if ($side == "x") {
+  @if $side == "x" {
     @return "#{$prop}-right", "#{$prop}-left";
   }
-  @if ($side == "y") {
+  @if $side == "y" {
     @return "#{$prop}-top", "#{$prop}-bottom";
   }
-  @if ($side == "t") {
+  @if $side == "t" {
     @return "#{$prop}-top";
   }
-  @if ($side == "r") {
+  @if $side == "r" {
     @return "#{$prop}-right";
   }
-  @if ($side == "b") {
+  @if $side == "b" {
     @return "#{$prop}-bottom";
   }
-  @if ($side == "l") {
+  @if $side == "l" {
     @return "#{$prop}-left";
   }
+  @return null;
 }
 
 // MARGIN
@@ -39,7 +40,7 @@ $sides: "", "x", "y", "t", "r", "b", "l";
 
   $v: 0;
   @for $i from 0 through 20 {
-    @each $dec in ("", "\\.25", "\\.5", "\\.75") {
+    @each $dec in ("", "_25", "_50", "_75") {
       .m#{$side}-#{$i}#{$dec} {
         @each $prop in getProps("margin", $side) {
           #{$prop}: #{$v}rem !important;
@@ -61,7 +62,7 @@ $sides: "", "x", "y", "t", "r", "b", "l";
 
   $v: 0;
   @for $i from 0 through 20 {
-    @each $dec in ("", "\\.25", "\\.5", "\\.75") {
+    @each $dec in ("", "_25", "_50", "_75") {
       .p#{$side}-#{$i}#{$dec} {
         @each $prop in getProps("padding", $side) {
           #{$prop}: #{$v}rem !important;

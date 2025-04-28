@@ -2,5 +2,5 @@
 // VARS
 // ####################
 
-$orientations: "h", "v";
-$shapes: "square", "circle", "rectangle";
+$orientations: ("h", "v") !default;
+$shapes: ("square", "circle", "rectangle") !default;
