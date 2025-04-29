@@ -15256,23 +15256,23 @@
   text-overflow: ellipsis;
 }
 
-.block {
+.display-block {
   display: block;
 }
 
-.inline {
+.display-inline {
   display: inline;
 }
 
-.inline-block {
+.display-inline-block {
   display: inline-block;
 }
 
-.none {
+.display-none {
   display: none;
 }
 
-.contents {
+.display-contents {
   display: contents;
 }
 
